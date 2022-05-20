@@ -274,7 +274,7 @@ nav ul li a:hover{
   }
 
     #check:checked~ul {
-      top: 66.69px;
+      top: 10vh;
       transition: 0.1s ease;
     }
   
