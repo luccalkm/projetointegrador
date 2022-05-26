@@ -35,8 +35,7 @@ nav {
     z-index: 100;
 }
 
-.header-title,
-.header-title:hover {
+.header-title{
     font-weight: 600;
     color: #FBFBFB;
     font-size: 2.1em;
@@ -58,6 +57,7 @@ nav ul .rodape {
 
 nav ul li a {
     color: rgb(22, 154, 211);
+    background: white;
     font-size: 1.1em;
     border: 3px solid rgb(22, 154, 211);
     padding: 10px 25px;
@@ -84,7 +84,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 .txt {
@@ -197,7 +197,6 @@ nav ul li a:hover {
         align-items: center;
         text-align: left;
         border-radius: 0;
-        background: whitesmoke;
         border: none;
         font-size: 2rem;
     }
@@ -237,7 +236,7 @@ nav ul li a:hover {
     }
 
     #check:checked~ul {
-        top: 10vh;
+        top: 80px;
         transition: 0.1s ease;
     }
 
@@ -278,7 +277,6 @@ nav ul li a:hover {
 @media (max-width: 1000px) {
     nav {
         display: flex;
-        position: sticky;
     }
 
     nav ul {
@@ -300,7 +298,7 @@ nav ul li a:hover {
     }
 
     #check:checked~ul {
-        top: 10vh;
+        top: 80px;
         transition: 0.1s ease;
     }
     .txt1 {
