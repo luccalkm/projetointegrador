@@ -75,6 +75,11 @@ nav ul li a:hover{
 
 /* End of header */
 /* Video */
+.video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .video-box {
   margin-top: 60px;
   display: flex;
@@ -132,7 +137,6 @@ nav ul li a:hover{
 .video video {
   width: 25rem;
   height: 44rem;
-  margin-right: 8rem;
 }
 
 /* End video */
@@ -219,7 +223,7 @@ nav ul li a:hover{
   }
 
   #check:checked ~ul{
-    top: 10vh;
+    top: 80px;
     transition: 0.1s ease;
   }
 
@@ -231,9 +235,6 @@ nav ul li a:hover{
   }
 
   .video-box {
-    margin-top: 5rem;
-    display: flex;
-    flex-direction: row-reverse;
     justify-content: space-around;
     align-content: center;
     width: 100%;
@@ -243,15 +244,8 @@ nav ul li a:hover{
     width: 50%;
     font-size: smaller;
   }
-
   .video video{
-    width: 22rem;
-    height: 40rem;
-    margin-right: 5%;
-  }
-
-  .shadow-video{
-    display: none;
+    padding-top: 20px;
   }
 }
 @media (max-width: 1000px) {
@@ -274,7 +268,7 @@ nav ul li a:hover{
   }
 
     #check:checked~ul {
-      top: 10vh;
+      top: 80px;
       transition: 0.1s ease;
     }
   
@@ -282,7 +276,7 @@ nav ul li a:hover{
       font-size: 1.5rem;
       width: 60%;
     }
-
+  
   .video-txt h1{
     height: 60px;
     display: flex;
@@ -296,7 +290,10 @@ nav ul li a:hover{
     display: flex;
     flex-direction: column;
     width: 100%;
+    justify-content: center;
+    align-items: center;
   }
+
   .video-txt {
     width: auto;
     height: auto;
@@ -305,7 +302,6 @@ nav ul li a:hover{
   .video video{
     width: 60%;
     height: auto;
-    margin: auto;
     margin: 15px 75px;
   }
 }
