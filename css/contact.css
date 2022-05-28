@@ -35,7 +35,7 @@ nav {
     z-index: 100;
 }
 
-.header-title, .header-title:hover {
+.header-title{
     font-weight: 600;
     font-size: 2.1em;
     background: -webkit-linear-gradient(#60cfff, #169ad3, #169ad3);
